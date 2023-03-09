@@ -30,7 +30,7 @@ export const Api = () => {
                 return(
                     <div key={index} >
                         <h2>{personaje.character}</h2>
-                        <img src={personaje.image}/>
+                        <img src={personaje.image} alt=""/>
                         <h2>{personaje.quote}</h2>
 
                     </div>
